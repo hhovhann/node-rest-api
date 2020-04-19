@@ -1,0 +1,36 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "node-rest-api example",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon --exec \"npx babel-node src/server.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hhovhann/node-rest-api.git"
+  },
+  "author": "Hayk Hovhannisyan",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hhovhann/node-rest-api/issues"
+  },
+  "homepage": "https://github.com/hhovhann/node-rest-api#readme",
+  "dependencies": {
+    "@babel/node": "^7.8.7",
+    "body-parser": "^1.19.0",
+    "eslint-plugin-immutable": "^1.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "open": "^7.0.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  }
+}
